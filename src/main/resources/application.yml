@@ -1,0 +1,11 @@
+logging:
+  level:
+    org.springframework.data.r2dbc: DEBUG
+
+spring:
+  r2dbc:
+    url: r2dbc:pool:postgres://localhost:5432/hazelcast
+    username: hazelcast
+    password: hazelcast
+
+    initialization-mode=always: always
